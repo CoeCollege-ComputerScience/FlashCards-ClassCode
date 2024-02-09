@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello Flashcards");
+        Flashcard f = new DivisionCard();
+        System.out.println(f);
+        System.out.println(f.getAnswer());
+
+        f = new AdditionCard();
+        System.out.println(f);
+        System.out.println(f.getAnswer());
+
     }
 }
