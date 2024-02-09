@@ -12,7 +12,7 @@ public abstract class Flashcard {
         op2 = rand.nextInt()%10;
         this.operator = operator;
     }
-    //Abstract
+
     public abstract int getAnswer();
 
     @Override
